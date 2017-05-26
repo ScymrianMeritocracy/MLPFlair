@@ -19,4 +19,4 @@ Usage
 
 To create flair templates in /r/foo, /r/bar, and /r/baz:
 
-    $ amupdate.py foo bar baz
+    $ mlpflair.py foo bar baz
