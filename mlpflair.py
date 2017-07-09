@@ -3,13 +3,13 @@
 import argparse
 import os
 import praw
-import yaml
+import ruamel.yaml
 
 def loadflair():
     """Load flair list from file beside ourself."""
     mypath = os.path.dirname(os.path.realpath(__file__))
     myconf = open("{}/flair.yaml".format(mypath), "r")
-    myflair = yaml.safe_load(myconf)
+    myflair = ruamel.yaml.safe_load(myconf)
     myconf.close()
     return myflair["flairs"]
 
