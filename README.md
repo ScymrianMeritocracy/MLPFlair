@@ -6,8 +6,8 @@ This is a simple script to create the dozens of "standard" My Little Pony flair 
 Requirements
 ------------
 
- * [PRAW4](https://praw.readthedocs.io/en/praw4/index.html)
- * [PyYAML](http://pyyaml.org/)
+ * [PRAW 4.0.0+](https://praw.readthedocs.io/en/latest/index.html)
+ * [ruamel.yaml](https://yaml.readthedocs.io/en/latest/index.html)
 
 Setup
 -----
