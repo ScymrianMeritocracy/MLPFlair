@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
-flairs: !!omap # text, class
+flairs: !!omap # class: text
   - rainbowdash: "Rainbow Dash"
   - twilight: "Twilight Sparkle"
   - fluttershy: "Fluttershy"
