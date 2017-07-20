@@ -20,7 +20,7 @@ def update(sublist, flairlist):
         flairs = r.subreddit(sub).flair.templates
         try:
             for flair in flairlist:
-                flairs.add(flair[1], flair[0])
+                flairs.add(flairlist[flair], flair)
         except:
             print("{}: trouble adding flair templates".format(sub))
 
