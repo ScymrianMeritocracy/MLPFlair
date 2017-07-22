@@ -21,6 +21,7 @@ def update(sublist, flairlist):
         try:
             for flair in flairlist:
                 flairs.add(flairlist[flair], flair)
+                print("{} added".format(flairlist[flair]))
         except:
             print("{}: trouble adding flair templates".format(sub))
 
